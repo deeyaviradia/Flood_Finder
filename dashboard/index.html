@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+		<meta charset="utf-8" />
+    	<title>Flood Finder</title>
+
+		<!-- include leaflet css and javascript -->
+		<link rel="stylesheet" crossorigin="" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+		<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js" crossorigin=""></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="http://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+		<script src="./dist/leaflet.polylineDecorator.js"></script>
+		<script src="./dist/leaflet.heat.js"></script>
+
+		<!-- include our own css and json -->
+		<link rel="stylesheet" href="dashboard.css" />
+		<script type='text/javascript' src='./json/stormGravityMains.json'></script>
+		<script type='text/javascript' src='./json/stormManholes.json'></script>
+		<script type='text/javascript' src='./json/camera.json'></script>
+
+	</head>
+
+	<body>
+		<div id="map"></div>
+
+		<!-- include our own javascript -->
+		<script src="dashboard.js"></script>
+	</body>
+</html>
